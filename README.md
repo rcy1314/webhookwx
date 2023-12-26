@@ -13,7 +13,7 @@ docker build -t wxbot .
 ```html
 docker run -d \
 --name wxBotWebhook \
--p wxbot \
+-p 3001:3001 \
 你的构建路径
 ```
 
